@@ -12,9 +12,9 @@ To apply filters to an image, run the program with your image argument and then 
 
 The filter arguments must have apostrophes `'` or quotation marks `"` around them, and be closed with paretheses `()` at the end, with a value if necessary.
 
-For example, to invert the included moon.jpg and then apply noise with a value of 50 to the result, you could type `python imageFilters.py moon.jpg 'invert()' 'noise(50)'`.
+For example, to invert the included bird.jpg and then apply noise with a value of 50 to the result, you could type `python imageFilters.py bird.jpg 'invert()' 'noise(50)'`.
 
-Files are output next to the original input file, and will named `<filename>_edit.<extension>`. So for the moon.jpg example, the output would be called moon_edit.jpg.
+Files are output next to the original input file, and will named `<filename>_edit.<extension>`. So for the bird.jpg example, the output would be called bird_edit.jpg.
 
 ### Filters (* represents optional argument)
 
